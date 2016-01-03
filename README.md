@@ -6,3 +6,5 @@ is easy to edit and generates a corresponding .SVG file.
 
 # Documentation
 See underlying [diagrams](https://github.com/francoislaberge/diagrams) project for syntax details.
+
+<img src="http://francoislaberge.com/atom-diagrams/images/screenshot.png"/>
