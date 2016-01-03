@@ -1,16 +1,13 @@
 {
   "name": "diagrams",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Create Flowcharts, Dot, Network Sequence, and Railroad diagrams in the Atom",
   "author": "Francois Laberge <francoislaberge@gmail.com>",
   "license": "MIT",
-
   "main": "src/main.js",
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "dependencies": {
     "eve": "git://github.com/adobe-webplatform/eve.git#eef80ed",
     "raphael": "^2.1.4"
