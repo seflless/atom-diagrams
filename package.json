@@ -1,11 +1,18 @@
 {
-  "name": "atom-diagrams",
+  "name": "diagrams",
   "version": "0.1.0",
-  "description": "",
+  "description": "Create Flowcharts, Dot, Network Sequence, and Railroad diagrams in the Atom",
   "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Francois Laberge <francoislaberge@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/francoislaberge/atom-diagrams"
+  },
+  "bugs": {
+    "url": "https://github.com/francoislaberge/atom-diagrams/issues"
+  }
 }
