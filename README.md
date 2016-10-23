@@ -7,7 +7,6 @@ an easy to understand and very productive text format.
  - The SVG viewers will automatically reload when the **.svg** file changes on your hard drive
  - Coming soon, is syntax highlighting for the diagram text file formats
 
-Example:
 <table>
 <tr>
 <td>Example sequence diagram's file content</td>
