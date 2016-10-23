@@ -36,15 +36,15 @@ See underlying [diagrams](https://github.com/francoislaberge/diagrams) project f
 ##### Previewing Diagrams in Atom
 Use the following flow when working on diagram files.
 
- 1. Install this **diagrams** package
- 2. Install [diagram](http://npmjs.org/diagrams) CLI.
- 3. Create or load an existing (**.flowchart**, **.sequence**, **.dot**, or **.railroad**) file.
+ 1. Install the [diagrams](https://atom.io/packages/diagrams) Atom package
+ 2. Install the [diagrams](http://npmjs.org/diagrams) command line tool
+ 3. Create or load an existing (**.flowchart**, **.sequence**, **.dot**, or **.railroad**) file
  4. Use the diagram CLI to automatically generate .svg visualizes of the diagram files.
     Run the following from the root folder that has all of your diagram files
 
         diagrams watch --build .
 
- 5. Open the .svg files that the above CLI will generate as you work on diagram files.
+ 5. Open the .svg files that the above CLI will generate as you work on diagram files
  6. I recommend using split panes (Coming at some point we could integrate the svg previewer more tightly.
     At least making the SVG viewer auto reload on file change)
 
