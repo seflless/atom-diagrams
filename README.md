@@ -28,11 +28,9 @@ Bob-->Alice: I am good thanks!
 </tr>
 </table>
 
-See underlying [diagrams](https://github.com/francoislaberge/diagrams) project for more diagram types & formats.
+### Documentation
 
-#### Documentation
-
-##### Textual DSL Syntax
+##### Diagram Text Formats
 See underlying [diagrams](https://github.com/francoislaberge/diagrams) project for documentation.
 
 ##### Previewing Diagrams in Atom
