@@ -16,7 +16,11 @@ module.exports =
       SVGView
 
     destroy: ->
-      console.log('destroy')
+      @onDestroy(@onDestroyContext)
+
+    onDispose: (onDestroy,onDestroyContext) ->
+        @onDestroy = onDestroy;
+        @onDestroyContext = onDestroyContext;
 
     getURI: ->
       @uri
