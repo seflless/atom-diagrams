@@ -1,13 +1,14 @@
 ### Overview
 An Atom Package for easily creating diagrams such as Flowcharts, Sequences, Graphviz's DOT, and Railroad diagrams. P
 is easy to edit that can generate a corresponding .SVG file.
- - [x] Adds an SVG viewer that you can open in another tab/pane to view the generated diagram.
-   - [x] The SVG few live reloads on each change.
- - [ ] Will provide syntax highlighting of diagram files (PR's welcome, only just started on this)
-   - [ ] `.flowchart`
-   - [x] `.sequence` (started)
-   - [ ] `.dot`
-   - [ ] `.railroad`
+ - Adds an SVG viewer that you can open in another tab/pane to view the generated diagram.
+   - The SVG file live reloads on each change.
+ - **Coming Soon**:
+   - Will provide syntax highlighting of diagram files
+     - `.sequence` (started)
+     - `.flowchart`
+     - `.dot`
+     - `.railroad`
 
 
 #### Documentation
