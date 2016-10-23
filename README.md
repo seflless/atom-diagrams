@@ -1,10 +1,18 @@
 ### Overview
 An Atom Package for easily creating diagrams such as Flowcharts, Sequences, Graphviz's DOT, and Railroad diagrams using
-an easy to understand and very productive text format. Example:
+an easy to understand and very productive text format.
+
+**Atom Package Features**
+ - Includes an **.svg** graphics viewer that you can use to view generated diagrams
+ - The SVG viewers will automatically reload when the **.svg** file changes on your hard drive
+ - Coming soon, is syntax highlighting for the diagram text file formats
+
+**Example**
+
 <table>
 <tr>
-<td><strong>Example sequence diagram's file content</strong></td>
-<td><strong>Generated SVG Graphic File</strong></td>
+<td>Example sequence diagram's file content</td>
+<td>Generated SVG Graphic File</td>
 </tr>
 <tr>
   <td>
@@ -22,18 +30,7 @@ Bob-->Alice: I am good thanks!
 </tr>
 </table>
 
-
-**Additional Features**
- - Adds an SVG viewer that you can open in another tab/pane to view the generated diagram.
- - The SVG file live reloads on each change.
-
-#### Coming Soon
- - Will provide syntax highlighting of diagram files
-   - **.sequence** (started)
-   - **.flowchart**
-   - **.dot**
-   - **.railroad**
-
+See underlying [diagrams](https://github.com/francoislaberge/diagrams) project for more diagram types & formats.
 
 #### Documentation
 
