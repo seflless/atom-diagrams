@@ -1,6 +1,6 @@
 {
   "name": "diagrams",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Create Flowcharts, Dot, Network Sequence, and Railroad diagrams in the Atom",
   "author": "Francois Laberge <francoislaberge@gmail.com>",
   "license": "MIT",
