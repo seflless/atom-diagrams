@@ -7,7 +7,9 @@ module.exports =
     atom.deserializers.add(this)
 
     constructor: (@uri, @filePath) ->
+      console.log('SVGPreviewer.constructor', @uri, @filePath);
       @tabTitle = path.parse(@uri).base;
+      @filePath = @filePath;
 
     getTitle: ->
       @tabTitle

@@ -16,20 +16,16 @@ class SVGView extends View
         self.onDidRenameDisposable.dispose();
 
     initialize: (editor) ->
-        file = new File(editor.getURI())
+        file = new File(editor.filePath)
         editor.onDispose(@dispose, this)
 
-        @bob = true;
-
-        console.log(editor.getURI());
-        @svgText = fs.readFileSync(editor.getURI());
+        @svgText = fs.readFileSync(editor.filePath);
         self = this;
         @onDidChangeDisposable = file.onDidChange () ->
-            self.svgText = fs.readFileSync(editor.getURI());
+            self.svgText = fs.readFileSync(file.getPath());
             self.attached()
 
         @onDidRenameDisposable = file.onDidRename () ->
-            console.log('onDidRename');
             editor.uri = file.getPath();
             editor.tabTitle = path.parse(editor.uri).base;
             editor.emitter.emit('did-change-title');
