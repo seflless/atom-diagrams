@@ -9,7 +9,7 @@ an easy to understand and very productive text format.
 
 <table>
 <tr>
-<td>Example sequence diagram's file content</td>
+<td>Example sequence diagram</td>
 <td>Generated SVG Graphic File</td>
 </tr>
 <tr>
