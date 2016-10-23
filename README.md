@@ -1,11 +1,15 @@
-## Overview
-Adds support for ```.flowchart```, ```.sequence```, ```.dot```, and ```.railroad``` to Atom. Each has is a text DSL based format that
-is easy to edit and generates a corresponding .SVG file.
+### Overview
+An Atom Package for easily creating diagrams such as Flowcharts, Sequences, Graphviz's DOT, and Railroad diagrams. P
+is easy to edit that can generate a corresponding .SVG file.
+ - [x] Adds an SVG viewer that you can open in another tab/pane to view the generated diagram.
+ - [ ] Provides syntax highlighting ```.flowchart```, ```.sequence```, ```.dot```, and ```.railroad``` files.
 
-### Documentation
-See underlying [diagrams](https://github.com/francoislaberge/diagrams) project for syntax details.
 
-**NOTE**: Only ```.flowchart``` is currently supported, as I haven't integrated all of the **diagram** package diagrams.
+#### Documentation
 
-### Screenshot
+##### Textual DSL Syntax
+See underlying [diagrams](https://github.com/francoislaberge/diagrams) project for documentation.
+
+##### Previewing Diagrams in Atom
+
 <img src="http://francoislaberge.com/atom-diagrams/images/screenshot.png"/>
