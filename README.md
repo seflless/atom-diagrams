@@ -23,7 +23,7 @@ Use the following flow when working on diagram files.
  4. Use the diagram CLI to automatically generate .svg visualizes of the diagram files.
     Run the following from the root folder that has all of your diagram files
 
-         diagrams watch --build .
+        diagrams watch --build .
 
  5. Open the .svg files that the above CLI will generate as you work on diagram files.
  6. I recommend using split panes (Coming at some point we could integrate the svg previewer more tightly.
