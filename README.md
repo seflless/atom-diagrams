@@ -12,4 +12,4 @@ See underlying [diagrams](https://github.com/francoislaberge/diagrams) project f
 
 ##### Previewing Diagrams in Atom
 
-<img src="http://francoislaberge.com/atom-diagrams/images/screenshot.gif"/>
+<img src="http://francoislaberge.com/atom-diagrams/images/screenshot-atom.gif"/>
