@@ -9,9 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "atom-space-pen-views": "^2.2.0",
-    "eve": "git://github.com/adobe-webplatform/eve.git#eef80ed",
-    "raphael": "^2.1.4"
+    "space-pen": "^5.1.2"
   },
   "repository": {
     "type": "git",
