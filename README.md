@@ -5,7 +5,7 @@ an easy to understand and very productive text format.
 ###### Atom Package Features
  - Includes an **.svg** graphics viewer that you can use to view generated diagrams
  - The SVG viewers will automatically reload when the **.svg** file changes on your hard drive
- - Coming soon, is syntax highlighting for the diagram text file formats
+ - Coming soon, is syntax highlighting for the diagram text file formats ([Network Diagram's Syntax](https://bramp.github.io/js-sequence-diagrams/#syntax))
 
 <table>
 <tr>

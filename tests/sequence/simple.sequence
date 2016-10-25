@@ -1,6 +1,13 @@
 # Order lanes 9 a asd
+
 participant Bob
 participant Alice
+participant Dog
+participant Cat
 Alice->Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
 Bob->Alice: I am good thanks!
+Cat->Dog: "Meow"
+Dog->Cat: "Bark"
+Cat->Dog: "Meow"
+Dog->Cat: "Bark"
