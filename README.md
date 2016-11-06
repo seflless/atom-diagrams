@@ -9,7 +9,7 @@ Has an accompanying command line tool to generate SVG from these files. See [dia
  - Preview the diagram graphics
  - The diagrams preview updates in real time per key stroke
  - Syntax highlighting and error checking of text notation
- - Includes an **.svg** previewer
+ - Includes an SVG previewer
 
 <img src="http://francoislaberge.com/atom-diagrams/screenshot-atom.gif"/>
 
