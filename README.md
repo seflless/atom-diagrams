@@ -9,29 +9,9 @@ Has an accompanying command line tool to generate SVG from these files. See [dia
  - Preview the diagram graphics
  - The diagrams preview updates in real time per key stroke
  - Syntax highlighting and error checking of text notation
- - Includes an **.svg** graphics viewer that you can use to view generated diagrams
-   - The SVG viewers will automatically reload when the **.svg** file changes on your hard drive
+ - Includes an **.svg** previewer
 
-<table>
-<tr>
-<td>Example sequence diagram</td>
-<td>Generated SVG Graphic File</td>
-</tr>
-<tr>
-  <td>
-  <pre>
-<code>
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-</code>
-  </pre>
-  </td>
-  <td>
-    <img src="http://francoislaberge.github.io/diagrams/docs/sequence.png" width="350px" />
-  </td>
-</tr>
-</table>
+<img src="http://francoislaberge.com/atom-diagrams/screenshot-atom.gif"/>
 
 ### Documentation
 
@@ -55,5 +35,3 @@ is having an easy way to edit the content and preview the diagrams that will be 
 using the diagrams command line tool.
 
 See the [diagrams](https://www.npmjs.com/package/diagrams) command line tool for more information.
-
-<img src="http://francoislaberge.com/atom-diagrams/screenshot-atom.gif"/>
