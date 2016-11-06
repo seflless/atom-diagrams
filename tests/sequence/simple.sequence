@@ -1,6 +1,5 @@
-# Order lanes 9 a asd
-participant Bob
-participant Alice
+# This is a comment
+
 Alice->Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
-Bob->Alice: I am good thanks!
+Bob->Alice: I am good thank you!

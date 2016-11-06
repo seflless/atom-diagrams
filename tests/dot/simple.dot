@@ -3,8 +3,8 @@ digraph G {
 	main -> init;
 	main -> cleanup;
 	execute -> make_string;
-	execute -> printf
-	init -> make_string;
+	execute -> printf;
+	init -> make_staring;
 	main -> printf;
 	execute -> compare;
 }

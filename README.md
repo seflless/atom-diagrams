@@ -1,15 +1,59 @@
 ### Overview
-An Atom Package for easily creating diagrams such as Flowcharts, Sequences, Graphviz's DOT, and Railroad diagrams. P
-is easy to edit that can generate a corresponding .SVG file.
- - [x] Adds an SVG viewer that you can open in another tab/pane to view the generated diagram.
- - [ ] Provides syntax highlighting ```.flowchart```, ```.sequence```, ```.dot```, and ```.railroad``` files.
+An Atom Package for easily creating diagrams such as Flowcharts, Sequence, and
+graphviz's dot. Diagrams are generated using easy to understand and very productive
+text notation.
 
+Has an accompanying command line tool to generate SVG from these files. See [diagrams](https://www.npmjs.com/package/diagrams).
 
-#### Documentation
+###### Atom Package Features
+ - Preview the diagram graphics
+ - The diagrams preview updates in real time per key stroke
+ - Syntax highlighting and error checking of text notation
+ - Includes an **.svg** graphics viewer that you can use to view generated diagrams
+   - The SVG viewers will automatically reload when the **.svg** file changes on your hard drive
 
-##### Textual DSL Syntax
-See underlying [diagrams](https://github.com/francoislaberge/diagrams) project for documentation.
+<table>
+<tr>
+<td>Example sequence diagram</td>
+<td>Generated SVG Graphic File</td>
+</tr>
+<tr>
+  <td>
+  <pre>
+<code>
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+</code>
+  </pre>
+  </td>
+  <td>
+    <img src="http://francoislaberge.github.io/diagrams/docs/sequence.png" width="350px" />
+  </td>
+</tr>
+</table>
+
+### Documentation
+
+##### Diagram Text Formats
+See underlying [diagrams](https://www.npmjs.com/package/diagrams) project for documentation.
+
+#### Generating SVG
+This project doesn't generate .svg files, but might in the future. The current focus
+is having an easy way to edit the content and preview the diagrams that will be generated
+using the diagrams command line tool.
+
+See the [diagrams](https://www.npmjs.com/package/diagrams) command line tool for more information.
 
 ##### Previewing Diagrams in Atom
+Use the following flow when working on diagram files.
 
-<img src="http://francoislaberge.com/atom-diagrams/images/screenshot-atom.gif"/>
+ 1. Install the [diagrams](https://atom.io/packages/diagrams) Atom package
+ 2. Create or load an existing (**.sequence**, **.dot**, or **.flowchart**) file
+ 3. Edit them and preview the results in realtime.
+ 3. (Optionally) Use the diagram CLI to automatically generate .svg visualizes of the diagram files
+    Run the following from the root folder that has all of your diagram files
+
+        diagrams watch --build .
+
+<img src="http://francoislaberge.com/atom-diagrams/screenshot-atom.gif"/>

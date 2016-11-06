@@ -8,6 +8,7 @@ module.exports =
 
     constructor: (@uri, @filePath) ->
       @tabTitle = path.parse(@uri).base;
+      @filePath = @filePath;
 
     getTitle: ->
       @tabTitle
@@ -16,7 +17,11 @@ module.exports =
       SVGView
 
     destroy: ->
-      console.log('destroy')
+      @onDestroy(@onDestroyContext)
+
+    onDispose: (onDestroy,onDestroyContext) ->
+        @onDestroy = onDestroy;
+        @onDestroyContext = onDestroyContext;
 
     getURI: ->
       @uri

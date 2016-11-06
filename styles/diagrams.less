@@ -8,8 +8,26 @@
     width: 100%;
     height: 100%;
     background: white;
+    overflow: scroll;
 }
 
 .diagram-sequence-participant{
     color: red;
+}
+
+atom-text-editor::shadow {
+  .gutter .line-number {
+    &.diagrams-line-number-red {
+      color: @text-color-error;
+      font-weight: bold;
+    }
+  }
+
+  .diagrams-highlight-red .region {
+      background: @background-color-error;
+  }
+}
+
+.diagrams-line-number-red{
+    color: @text-color-error;
 }
