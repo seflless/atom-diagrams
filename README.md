@@ -1,11 +1,16 @@
 ### Overview
-An Atom Package for easily creating diagrams such as Flowcharts, Sequences, Graphviz's DOT, and Railroad diagrams using
-an easy to understand and very productive text format.
+An Atom Package for easily creating diagrams such as Flowcharts, Sequence, and
+graphviz's dot. Diagrams are generated using easy to understand and very productive
+text notation.
+
+Has an accompanying command line tool to generate SVG from these files. See [diagrams](https://www.npmjs.com/package/diagrams).
 
 ###### Atom Package Features
+ - Preview the diagram graphics
+ - The diagrams preview updates in real time per key stroke
+ - Syntax highlighting and error checking of text notation
  - Includes an **.svg** graphics viewer that you can use to view generated diagrams
- - The SVG viewers will automatically reload when the **.svg** file changes on your hard drive
- - Coming soon, is syntax highlighting for the diagram text file formats ([Network Diagram's Syntax](https://bramp.github.io/js-sequence-diagrams/#syntax))
+   - The SVG viewers will automatically reload when the **.svg** file changes on your hard drive
 
 <table>
 <tr>
@@ -31,21 +36,24 @@ Bob-->Alice: I am good thanks!
 ### Documentation
 
 ##### Diagram Text Formats
-See underlying [diagrams](https://github.com/francoislaberge/diagrams) project for documentation.
+See underlying [diagrams](https://www.npmjs.com/package/diagrams) project for documentation.
+
+#### Generating SVG
+This project doesn't generate .svg files, but might in the future. The current focus
+is having an easy way to edit the content and preview the diagrams that will be generated
+using the diagrams command line tool.
+
+See the [diagrams](https://www.npmjs.com/package/diagrams) command line tool for more information.
 
 ##### Previewing Diagrams in Atom
 Use the following flow when working on diagram files.
 
  1. Install the [diagrams](https://atom.io/packages/diagrams) Atom package
- 2. Install the [diagrams](http://npmjs.org/diagrams) command line tool
- 3. Create or load an existing (**.flowchart**, **.sequence**, **.dot**, or **.railroad**) file
- 4. Use the diagram CLI to automatically generate .svg visualizes of the diagram files.
+ 2. Create or load an existing (**.sequence**, **.dot**, or **.flowchart**) file
+ 3. Edit them and preview the results in realtime.
+ 3. (Optionally) Use the diagram CLI to automatically generate .svg visualizes of the diagram files
     Run the following from the root folder that has all of your diagram files
 
         diagrams watch --build .
-
- 5. Open the .svg files that the above CLI will generate as you work on diagram files
- 6. I recommend using split panes (Coming at some point we could integrate the svg previewer more tightly.
-    At least making the SVG viewer auto reload on file change)
 
 <img src="http://francoislaberge.com/atom-diagrams/screenshot-atom.gif"/>

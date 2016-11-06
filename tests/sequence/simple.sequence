@@ -1,24 +1,5 @@
-# Copy/paste below into https://bramp.github.io/js-sequence-diagrams/ page's "Demo. Try editing me below" input box.
+# This is a comment
 
-# Order lanes
-participant User
-participant Audio System
-participant Body Service
-participant LED Controller
-participant LED
-participant Jibo Speakers
-participant ASR
-participant SSM
-participant Nuance
-participant Skill Process
-
-Title: The perceived response time of "Hey Jibo" recognition
-User->Audio System: "Hey Jibo" (End of)
-Audio System->ASR: "Hey Jibo" Audio stream
-ASR->SSM: "Hey Jibo" Reco
-SSM->Skill Process: "Hey Jibo" Reco
-Skill Process->Body Service: "Turn on LED"
-Body Service->LED Controller: "Turn on LED"
-LED->User: "Blue light visible"
-Skill Process->Audio System: "Play listening sound"
-Jibo Speakers->User: "Listening sound heard"
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob->Alice: I am good thank you!
