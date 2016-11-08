@@ -11,7 +11,7 @@ Has an accompanying command line tool to generate SVG from these files. See [dia
  - Syntax highlighting and error checking of text notation
  - Includes an SVG previewer
 
-<img src="http://francoislaberge.com/atom-diagrams/screenshot-atom.gif"/>
+<img src="docs/screenshot-atom.gif"/>
 
 ### Documentation
 
