@@ -1,13 +1,12 @@
 ### Overview
-An Atom Package for easily creating diagrams such as Flowcharts, Sequence, and
-graphviz's dot. Diagrams are generated using easy to understand and very productive
-text notation.
+An Atom Package for easily creating diagrams such as Sequence and Graphviz's Dot format.
+Diagrams are generated using easy to understand and very productive text notation.
 
 Has an accompanying command line tool to generate SVG from these files. See [diagrams](https://www.npmjs.com/package/diagrams).
 
 ###### Atom Package Features
  - Preview the diagram graphics
- - The diagrams preview updates in real time per key stroke
+ - Real time per key stroke updating of the diagram previewer
  - Syntax highlighting and error checking of text notation
  - Includes an SVG previewer
 
@@ -19,7 +18,7 @@ Has an accompanying command line tool to generate SVG from these files. See [dia
 Use the following flow when working on diagram files.
 
  1. Install the [diagrams](https://atom.io/packages/diagrams) Atom package
- 2. Create or load an existing (**.sequence**, **.dot**, or **.flowchart**) file
+ 2. Create or load an existing **.sequence** or **.dot** file
  3. Edit them and preview the results in realtime.
  3. (Optionally) Use the diagram CLI to automatically generate .svg visualizes of the diagram files
     Run the following from the root folder that has all of your diagram files
