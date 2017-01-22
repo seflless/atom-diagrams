@@ -1,7 +1,7 @@
 {
   "name": "diagrams",
   "version": "0.26.1",
-  "description": "Create Flowcharts, Dot, Network Sequence, and Railroad diagrams in the Atom",
+  "description": "Create network sequence and graphviz's dot diagrams in Atom",
   "author": "Francois Laberge <francoislaberge@gmail.com>",
   "license": "MIT",
   "main": "lib/diagrams.js",
