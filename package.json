@@ -1,6 +1,6 @@
 {
   "name": "diagrams",
-  "version": "0.26.2",
+  "version": "0.26.4",
   "description": "Create network sequence and graphviz's dot diagrams in Atom",
   "author": "Francois Laberge <francoislaberge@gmail.com>",
   "license": "MIT",
@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "eve": "^0.5.0",
+    "flowchart.js": "^1.6.5",
     "node-sequence-diagram": "^1.0.1",
     "space-pen": "^5.1.2",
     "split.js": "^1.1.1",
