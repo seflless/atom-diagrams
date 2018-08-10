@@ -1,6 +1,6 @@
 {
   "name": "diagrams",
-  "version": "0.28.4",
+  "version": "0.29.0",
   "description": "Create network sequence and graphviz's dot diagrams in Atom",
   "author": "Francois Laberge <francoislaberge@gmail.com>",
   "license": "MIT",
