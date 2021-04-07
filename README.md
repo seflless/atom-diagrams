@@ -11,7 +11,8 @@ Has an accompanying command line tool to generate SVG from these files. See [dia
  - Includes an SVG previewer
  - Previewer can be dynamically resized by dragging the left side
 
-<img src="http://francoislaberge.com/atom-diagrams/screenshot-atom.gif"/>
+<img src="http://seflless.github.io/atom-diagrams/screenshot-atom.gif"/>
+
 
 ### Documentation
 
